@@ -1,3 +1,25 @@
+# 忽略你的本地模型文件夹
+qwen_model/
+
+# 忽略数据集等大文件
+*.csv
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.npy
+*.npz
+
+# 忽略Python虚拟环境
+venv/
+env/
+.venv/
+
+# 忽略IDE配置文件（如果不想分享）
+.vscode/
+.idea/
+*.swp
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
